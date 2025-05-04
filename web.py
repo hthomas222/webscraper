@@ -30,7 +30,7 @@ def check(test):
     sel = ["1", "2"]
     while test not in sel:
             console.log("Please enter either 1 or 2")
-            test = console.input(f"[bold red]Select 1 to exit |""[bold green]| Select 2 to continue: ")
+            test = console.input("[bold red]Select 1 to exit |""[bold green]| Select 2 to continue: ")
     return test
 
 
@@ -61,7 +61,7 @@ while test != "1":
     else:
         console.log("[bold red]Please enter a valid choice!")
     print()
-    test = console.input(f"[bold red]Select 1 to exit |""[bold green]| Select 2 to continue: ")
+    test = console.input("[bold red]Select 1 to exit |""[bold green]| Select 2 to continue: ")
     if test != "1":
         x = check(test)
         if x == "1":
